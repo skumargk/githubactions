@@ -1,0 +1,12 @@
+{
+  "Version": "2025-02-28",
+  "Statement": [
+    {
+      "Sid": "PublicReadGetObject",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "s3:GetObject",
+      "Resource": "arm:aws:s3:::myawsgithubstorage/*"
+    }
+  ]
+}
