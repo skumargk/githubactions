@@ -6,7 +6,7 @@
       "Effect": "Allow",
       "Principal": "*",
       "Action": "s3:GetObject",
-      "Resource": "arm:aws:s3:::myawsgithubstorage/*"
+      "Resource": "arm:aws:s3:::myfamilycountbucket/*"
     }
   ]
 }
